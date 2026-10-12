@@ -1,0 +1,52 @@
+/* Design tokens. Brand colors come from the DOMEv identity. */
+:root {
+  /* Brand */
+  --color-primary: #1e4552;
+  --color-secondary: #569166;
+  --color-accent: #4c625d;
+  --color-light-gray: #c7d1ce;
+  --color-background: #fcfbf9;
+
+  /* Interface */
+  --color-surface: #ffffff;
+  --color-text: #243638;
+  --color-text-muted: #647572;
+  --color-border: #e2e8e5;
+  --color-success: #2e7d52;
+  --color-error: #c44747;
+  --color-warning: #b7791f;
+
+  /* Soft status backgrounds */
+  --color-success-soft: #e6f2ea;
+  --color-error-soft: #f9e9e9;
+  --color-warning-soft: #f8efdc;
+  --color-primary-soft: #e8eff1;
+
+  /* Sidebar */
+  --color-sidebar-text: #c9dadd;
+  --color-sidebar-active: rgba(255, 255, 255, 0.12);
+
+  /* Layout */
+  --sidebar-width: 260px;
+  --header-height: 72px;
+
+  /* Shape */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --shadow-card: 0 4px 20px rgba(30, 69, 82, 0.06);
+  --shadow-overlay: 0 12px 40px rgba(30, 69, 82, 0.22);
+
+  /* Type */
+  --font-heading: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Figtree", "Segoe UI", system-ui, sans-serif;
+
+  /* Spacing scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+}

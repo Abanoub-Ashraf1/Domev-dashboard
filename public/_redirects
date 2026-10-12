@@ -1,0 +1,2 @@
+/api-proxy/*  https://watt-route-backend.onrender.com/:splat  200!
+/*  /index.html  200
